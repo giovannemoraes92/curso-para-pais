@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-checkout]").forEach(function(button){button.addEventListener("click",function(event){if(button.getAttribute("href")==="#"){event.preventDefault();alert("O checkout ainda será conectado. Substitua o href deste botão pelo link real da sua plataforma de pagamento.");}});});
